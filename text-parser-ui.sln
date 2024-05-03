@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "text-parser-ui", ".", "{6FBC5631-1459-41CE-906F-025942B8B962}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_2549"
+		Debug.AspNetCompiler.PhysicalPath = "..\text-parser-ui\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2549\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_2549"
+		Release.AspNetCompiler.PhysicalPath = "..\text-parser-ui\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2549\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2549"
+		SlnRelativePath = "..\text-parser-ui\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FBC5631-1459-41CE-906F-025942B8B962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FBC5631-1459-41CE-906F-025942B8B962}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDC7A718-3B7B-4A1D-BABA-692440484F13}
+	EndGlobalSection
+EndGlobal
