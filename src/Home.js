@@ -23,7 +23,7 @@ export class Home extends Component{
             },
             body: JSON.stringify(textToSanitize)
         }).then(res=> res.ok ? res.json() : Promise.reject)
-        .then(data=>{document.getElementsByName("textarea2")[0].value = data;}, (error)=>{alert('Failed ' + error)})
+        .then(data=>{document.getElementsByName("textarea2")[0].value = data.value;}, (error)=>{alert('Failed ' + error)})
       }
       else{
         alert("Please input text to sanitize.")
